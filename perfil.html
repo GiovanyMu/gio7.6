@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Giovany</title>
+</head>
+<body>
+    <style>
+        body{
+        background-color: #90cef8;
+        font-family: 'Bridgetta', sans-serif;
+        color:aliceblue; /*esto es para el color de letra*/
+        text-align: center;
+        }
+        .perfil{
+        margin: 20px auto;
+        width: 80%;
+        max-width: 600px;
+        background-color: bisque;
+        padding: 20px;
+        box-shadow: 0 0 10px black;
+        }
+         .foto-perfil{
+            width:150px;
+            height: auto;
+            border-radius: 50%;
+            margin: 0 auto;
+            display: block;
+         }
+        
+    </style>
+    <div class="perfil">
+        <img src="img/fotoperfil.jpg" alt="amo los gatos"
+        class="foto-perfil">
+        <h1 id='nombre'>Nombre de perfil</h1>
+        <h3 id="especialidad">especialidad del cetis</h3>
+        <h2>Gustos personales</h2>
+        <ul>/*Con esto se cra una lista y el li es cada elemento*/</ul>
+        <li id="musica">Musica  Favorita</li>
+        <li id="Programas">Programas Favoritos</li>
+    </ul>
+    <h2>Informacion de Contacto</h2>
+    <p id="Telefono">Telefono</p>
+    <p id="Correo">Correo</p>
+    <p id="Biografia">Biografia</p>
+    </div>
+    <script>
+        document.addEventListener('DDMContentLoaded', function(){
+        document.getElementById('nombre').textContent='Giovany Muñoz';
+        document.getElementById('especialidad').textContent='Programacion';
+        document.getElementById('musica').textContent='Ninguna';
+        document.getElementById('Programas').textContent='¿Es pastel?';
+        document.getElementById('Telefono').textContent='8992322641';
+        document.getElementById('Correo').textContent='giovanyagus111007@gmail.com';
+        document.getElementById('Biografia').textContent='Me llamo Giovany Agustin Muñoz Vazquez Naci el 11 de Octubre del 2007 en Reynosa Tamaulipas';
+        })
+    </script>
+</body>
+</html>

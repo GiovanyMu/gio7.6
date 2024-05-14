@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <style>
+            @import url('https://fonts.cdnfonts.com/css/la-unica');
+</style>
+    <title>Pagina de Criss</title>
+</head>
+<body>
+    <div style="margin: 24px;">
+        <nav class="navbar navbar-light" style="background-color: bisque;">
+            <div class="container">
+                <a class="navbar-brand" href="index.html" style="color: black; font-family: 'La unica', sans-serif;">Inicio</a>
+                <div class="collapse navbar-collapse" id="navbarNavDropDown">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Unidad 1</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDripdownMenuLink">
+                                <a class="dropdown-item" href="Perfil.html">Perfil</a><br>
+                                <a class="dropdown-item" href="Calculadora.html">Calculadora</a><br>
+                                <a class="dropdown-item" href="tienda.html">Tienda parte 1</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Unidad 2</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDripdownMenuLink">
+                                <a class="dropdown-item" href="TiendaPedido.html">Tienda Pedido</a><br>
+                                <a class="dropdown-item" href="Json.html">Json</a><br>
+                                <a class="dropdown-item" href="TiendaPedido2.html">Tienda Pedido 2</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Unidad 3</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDripdownMenuLink">
+                                <a class="dropdown-item" href="Peliculas.html">Peliculas</a><br>
+                                <a class="dropdown-item" href="Basededatos.html">Base de Datos</a><br>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+    <style>
+        body.html{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .deadpool{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background: url(img/fondo.jpg) no-repeat center center/cover;
+        }
+        .texto-presentacion{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: red;
+            text-align: center;
+            text-shadow: 1px 1px 2px black;
+        }
+        .cuadrado{
+            height: 200px;
+            width: 200px;
+            background-color:red;
+        }
+        .ojos{
+            display: block;
+            width: 60px;
+            height: 110px;
+            background-color: black;
+            border-radius: 50% 50% 50% 50% / 60% 60% 60% 60%;
+            position: relative;
+        }
+        .triangulo-normal{
+            width: 0;
+            height: 0;
+            border-left: 40px solid transparent;
+            border-right: 40px solid transparent;
+            border-bottom: 80px solid black;
+        }
+        .trianguloizquierda{
+            width: 0;
+            height: 0;
+            border-left: 40px solid transparent;
+            border-right: 40px solid transparent;
+            border-bottom: 80px solid black;
+        }
+        .elipse{
+            width: 150px;
+            height: 150px;
+            background-color: black;
+            border: 2px solid white;
+            -moz-border-radius: 0 100px 100px 0;
+            -webkit-border-radius: 0 100px 100px 0;
+            border-radius: 0 100px 100px 0;
+        }
+    </style>
+    <div class="deadpool">
+        <div class="texto-presentacion">
+            <hi>Mi primer dibujo en C55</hi>
+            <h2>Diseño por: Giovany Agustin Muñoz Vazquez</h2>
+            <p>De la especialidad de Programacion de 4 semestre de la escuela Ranchetis</p>
+        </div>
+        <style>
+            .cuadrados{
+                width: 200px;
+                 height: 200px; 
+                 background-color:aquamarine;
+                  border-radius: 10%;
+                   border-style: ridge;
+                left: 100px;
+            }
+            .imagenpaginas{
+                width: 150px;
+                height: auto;
+                display:block;
+                  border-radius: 20%;
+                  margin-left: auto;
+                  margin-right: auto;
+            }
+            .parrafo{
+                font-size: 12px;
+            }
+            .container{
+                position: relative;
+                width:100px;
+                height: auto;
+                display: flex;
+                justify-self: start;
+            }
+        </style>
+        <div class= "container">
+        <div class="cuadrados"> 
+            <img src="img/img.5.jpg" class="imagenpaginas">
+        <a href="menu.html"style="text-align: center; display:block;">Tienda1</a>
+        <p class="parrafo;" >Aqui va la primera parte de la pagina del Restaurant, en la que se muestra el menu sin nada mas</p>
+        </div>
+
+        <div class="cuadrados"> 
+            <img src="img/img.5.jpg" class="imagenpaginas">
+            <a href="menu2.html"style="text-align: center; display:block;">Tienda1</a>
+            <p class="parrafo;" >Aqui va la  parte del menu , donde ya suma las cantidades</p>
+            </div>
+
+            <div class="cuadrados"> 
+                <img src="img/img.5.jpg" class="imagenpaginas">
+                <a href="menu2.html"style="text-align: center; display:block;">Tienda1</a>
+                <p class="parrafo;" >Aqui va la  parte del menu , donde ya suma las cantidades</p>
+                </div>
+
+
+    </div>
+    <div class="cuadrado" style="left: -150px; top: 70px; border-radius: 50%"></div>
+    <div class="cuadrado" style="width: 100px; height: 100px; left: 200px; top:250px; border-radius: 50%"></div>
+    <div class="ojos" style="top: -280px; left:250px;"></div>
+    <div class="ojos" style="top: -380px; left:170px;"></div>
+    <div class="cuadrado" style="height: 20px; width: 20px; left: 190px; top: 170px; border-radius: 50%; background-color: white;"></div>
+    <div class="cuadrado" style="height: 20px; width: 20px; left: 260px; top: 170px; border-radius: 50%; background-color: white;"></div>
+    <div class="elipse" style="transform: rotate(90deg)"></div>
+</body>
+</html>
